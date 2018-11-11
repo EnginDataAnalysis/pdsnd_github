@@ -5,10 +5,16 @@ Project created 2018/10/17
 Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+Project Analyxes Bike Share data from three cities based on user input and displays stats on this data.
 
 ### Files used
-Include the files used
+Main Python Script:
+bikeshare_2.py
+
+Raw Data Files:
+chicago.csv
+washington.csv
+new-york-city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+No additional files used.
