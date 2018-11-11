@@ -82,7 +82,9 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel.
+    Prints most common month for travel, most common day for travel and most common day of week for travel
+    """
     month_list = {1:"January", 2:"February", 3:"March", 4:"April", 5:"May", 6:"June"}
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
