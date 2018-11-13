@@ -149,7 +149,11 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+    Prints count of each User Type.
+    If Gender is present in CSV, prints Gender breakdown.
+    If Birth Year is present, prints earliest, most recent and most common year of birth
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
