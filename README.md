@@ -1,5 +1,6 @@
 ### Date created
-Project created 2018/10/17
+Python script created 2018/10/17
+Git Project created 2018/11/10
 
 ### Project Title
 Bikeshare Data Analysis
