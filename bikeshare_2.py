@@ -22,7 +22,9 @@ def get_filters():
     valid_city = {"chicago", "washington", "new york city"}
     valid_month = {"all", "january", "february", "march", "april", "may", "june"}
     valid_day = {"all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"}
+
     print('Hello! Let\'s explore some US bikeshare data!')
+
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while (city not in valid_city):
         city = input("What city would you like to explore? (Chicago, New York City or Washington?)" ).lower()
@@ -141,6 +143,8 @@ def trip_duration_stats(df):
     # display total travel time
     print('The total travel time for this period is: {} minutes'.format(df['Trip Duration'].sum()/60))
     print('The total travel time for this period is: {} hours'.format(df['Trip Duration'].sum()/360))
+    print('The total travel time for this period is: {} days'.format(df['Trip Duration'].sum()/8640))
+
     # display mean travel time
     print('The average travel time for this period is: {} minutes'.format(df['Trip Duration'].mean()/60))
     print('The average travel time for this period is: {} hours'.format(df['Trip Duration'].mean()/360))
@@ -168,7 +172,7 @@ def user_stats(df):
         user_gender = df["Gender"].value_counts()
         print('\nThe gender breakdown for this period is as follows: \n', user_gender)
     else:
-        print('No gender data Exists for this city.')
+        print('No gender data exists for this city.')
 
 
     # Display earliest, most recent, and most common year of birth
@@ -177,7 +181,7 @@ def user_stats(df):
         print("The most recent year of birth is: {}".format(df['Birth Year'].max()))
         print("The most common year of birth is: {}".format(df['Birth Year'].mode()[0]))
     else:
-        print('No birth year data Exists for this city.')
+        print('No birth year data exists for this city.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
