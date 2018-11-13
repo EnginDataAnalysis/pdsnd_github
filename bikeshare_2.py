@@ -167,7 +167,7 @@ def user_stats(df):
         user_gender = df["Gender"].value_counts()
         print('\nThe gender breakdown for this period is as follows: \n', user_gender)
     else:
-        print('No gender data Exists for this city.')
+        print('No gender data exists for this city.')
 
 
     # Display earliest, most recent, and most common year of birth
@@ -176,7 +176,7 @@ def user_stats(df):
         print("The most recent year of birth is: {}".format(df['Birth Year'].max()))
         print("The most common year of birth is: {}".format(df['Birth Year'].mode()[0]))
     else:
-        print('No birth year data Exists for this city.')
+        print('No birth year data exists for this city.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
