@@ -5,7 +5,7 @@ Project created 2018/10/17
 Bikeshare Data Analysis
 
 ### Description
-Project Analyxes Bike Share data from three cities based on user input and displays stats on this data.
+Project Analyzes Bike Share data from three cities based on user input and displays stats on this data.
 
 ### Files used
 Main Python Script:
