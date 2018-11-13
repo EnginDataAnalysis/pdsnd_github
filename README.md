@@ -6,7 +6,7 @@ Git Project created 2018/11/10
 Bikeshare Data Analysis
 
 ### Description
-Project Analyzes Bike Share data from three cities based on user input and displays stats on this data.
+Project analyzes Bikeshare data from three cities based on user input and displays stats on this data.  CSV Files of raw Bikeshare data from three cities provided through Udacity Python project.
 
 ### Files used
 Main Python Script:
